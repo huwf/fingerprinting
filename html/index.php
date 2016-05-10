@@ -1,5 +1,9 @@
 <?php
   require 'include/header.php';
+	require __DIR__ . '/vendor/autoload.php';
+	$result = new WhichBrowser\Parser($_SERVER['HTTP_USER_AGENT']);
+	echo(var_dump($result));
+
 ?>
 <h1>I'm Ron Burgundy?</h1>
 <p>
