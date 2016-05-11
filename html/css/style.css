@@ -6,3 +6,15 @@ body{
   max-width: 600px;
   margin:auto;
 }
+
+#historyOutput{
+  display: none;
+}
+
+#history_list li{
+  list-style-type: none;
+}
+
+.history_counter{
+  margin-left: 10px;
+}
